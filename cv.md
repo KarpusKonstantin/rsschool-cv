@@ -21,7 +21,7 @@ I want to learn and discover something new in software development
 ## 5. Code examples
 
 ```
-  if P11 = '_INIT_COMPLECT_ORDER' then
+  if P = '_INIT_COMPLECT_ORDER' then
   begin
     with MainForm, DM, DM_Registry do
     begin
