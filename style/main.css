@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+.left {
+    float:left;
+}
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width: 1100px) {
+    .content ul,
+    .content img {
+        float: none;
+        display: block;
+    }
+    .content ul {
+        margin: 0 auto;
+    }
+    .content img {
+        margin: 20px auto;
+    }
+}
+
+.content {
+    max-width: 1024px;
+    margin: 20px auto 0;
+    width: 100%;
+}
+    
+	.content ul {
+        list-style-type: none;
+        width: 350px;
+    }
+        .content li {
+            margin-bottom: 15px;
+        }
+            .content li > strong {
+                display: block;
+            }
+            .content li > span {
+                display: block;
+            }
